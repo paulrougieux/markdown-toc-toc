@@ -109,6 +109,9 @@ function! s:Toc(...)
     execute 'normal! ' . l:cursor_header . 'G'
 endfunction
 command! -buffer Toc call s:Toc()
+command! -buffer Toch call s:Toc('horizontal')
+command! -buffer Tocv call s:Toc('vertical')
+command! -buffer Toct call s:Toc('tab')
 
 
 " To reload :source ~/.vimrc
