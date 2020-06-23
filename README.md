@@ -2,6 +2,16 @@
 Markdown Table of content command Copied from https://github.com/plasticboy/vim-markdown .
 All other functionalities removed.
 
+This is not needed, I create a table of content with
+[Voom](https://github.com/vim-voom/VOoM) instead. With the following in my `.vimrc`:
+
+    let voom_ft_modes = {'markdown': 'pandoc', 'rmd': 'pandoc', 'rnoweb': 'latex'}
+
+Thanks to Jalvesag for the suggestion in [Nvim-R issue 505](https://github.com/jalvesaq/Nvim-R/issues/505)
+
+Kept for historical purposes, just to remember how to extract a bigger plugin into a simple
+file type plugin. 
+
 # License
 
 The MIT License (MIT)
